@@ -4,18 +4,17 @@
     max-width:60%;
     mask-image: linear-gradient(to right,
       transparent 0%,
-      white 30%,
-      white 70%,
+      white 20%,
+      white 20%,
       transparent 100%
     );
   }
   
   .infi {
-    min-width:fit-content;
+    min-width:1920px;
     display:flex;
-    gap:16px;
+    /* gap:20px; */
     animation: scroll_left 20s linear infinite;
-    padding:0 8px;
   }
   
   .infi:hover{
